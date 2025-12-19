@@ -14,9 +14,11 @@ L’utilisateur fournit une matrice A (système acoustique) et un vecteur x (sig
 
 ## Utilisation
 ```r
-library(HouseholderAcoustics)
-A <- matrix(c(3,1,2, 1,4,0, 2,0,5), 3,3)
-x <- c(1,0.5,-0.2)
-householder(A, x)
-householder_acoustic_shiny() # Interface interactive
+# Exemple de matrice et vecteur
+> A <- matrix(c(3,1,2, 1,4,0, 2,0,5), 3,3)
+> x <- c(1,0.5,-0.2)
+> 
+> # Appel de la fonction principale
+> res <- Householder(A, x)
+> print(res)
 

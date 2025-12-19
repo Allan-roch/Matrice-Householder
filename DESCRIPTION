@@ -1,0 +1,14 @@
+Package: Householder
+Type: Package
+Title: Householder Matrix and Engineering Applications
+Version: 1.0.0
+Authors@R: 
+    person("Allan", "Nenkam", 
+           role = c("aut", "cre"),
+           email = "allan.nenkam@email.com")
+Description: Ce package offre une implémentation robuste et orientée ingénierie des matrices de Householder et de leurs applications. Il inclut des algorithmes numériques stables pour la décomposition QR, les problèmes des moindres carrés, le traitement du signal et l'analyse des données d'ingénierie. Une attention particulière est portée à la stabilité numérique, à la gestion des erreurs et à la visualisation, rendant ce package adapté à l'enseignement de l'ingénierie et au calcul scientifique appliqué.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:stats,graphics
+RoxygenNote: 7.3.3
